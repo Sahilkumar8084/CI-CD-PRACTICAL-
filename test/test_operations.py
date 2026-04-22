@@ -6,7 +6,7 @@ def test_add():
     assert add(45,5) ==50
     assert add(43,5) ==48
     assert add(3,45) ==48
-    assert add(34,5) ==38
+    assert add(34,5) ==39
     
 def test_sub(): #pytest ko rn karne ke liye hume aise gunction banane honge jinke naam test_ se hoo yaa koi folder ya files  end ho _test .py se aisa kuchh
     assert sub(5,3) ==2
